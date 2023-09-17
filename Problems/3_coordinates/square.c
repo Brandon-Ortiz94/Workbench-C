@@ -30,7 +30,7 @@
  *   .  .  .  .  .  .  .  .  .  . |  .  .  .  .  .  .  .  .  .  . y = -10
  * 
  * This programs implementation contains the following restrictions:
- * - No if or switch statements; branching is handle by ternary statements
+ * - No if or switch statements; branching is handled by ternary statements
  * - No looping statements; loops are handled by ternary statements 
  *   coupled with recursion
  * @file square.c
@@ -106,7 +106,7 @@ int counter(double x, double y, int num)
         // Recursive case: Yes
         counter( x, y, num )
 
-    // Not within bounds, are there more coordinates
+    // Not within bounds, are there more coordinates?
     : scanf( "%lf%lf", &x, &y ) == EOF ?
       // There are no more coordinates
       num :
